@@ -1,11 +1,97 @@
-<html>
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AUTRON - Pjesë këmbimi online. Vajra, filtra, ferrota dhe pjesë mirëmbajtjeje.">
+  <title>AUTRON | Premium Car Parts</title>
+  <link rel="stylesheet" href="style.css">
+</head>
 <body>
+<header class="header">
+  <a class="logo" href="#home">AUTRON<span>•</span></a>
+  <nav>
+    <a href="#home">Kryefaqja</a>
+    <a href="#products">Produktet</a>
+    <a href="#brands">Markat</a>
+    <a href="#contact">Kontakt</a>
+  </nav>
+  <a class="nav-btn" href="#contact">Kërko pjesën</a>
+</header>
 
+<main>
+<section id="home" class="hero">
+  <div class="hero-content">
+    <p class="eyebrow">PREMIUM CAR PARTS</p>
+    <h1>Pjesët e duhura<br><span>për makinën tënde.</span></h1>
+    <p class="hero-text">Pjesë këmbimi, vajra dhe produkte mirëmbajtjeje për automjete të ndryshme.</p>
+    <div class="actions">
+      <a class="btn primary" href="#contact">Kërko një pjesë</a>
+      <a class="btn secondary" href="#products">Shiko kategoritë</a>
+    </div>
+  </div>
+  <div class="hero-card">
+    <div class="car-glow">AUTRON</div>
+    <div class="hero-mini">ONLINE CAR PARTS</div>
+  </div>
+</section>
 
-  Autron
+<section id="products" class="section">
+  <div class="section-head">
+    <p class="eyebrow">ÇFARË OFROJMË</p>
+    <h2>Kategoritë kryesore</h2>
+  </div>
+  <div class="grid">
+    <article class="card"><div class="icon">🛢️</div><h3>Vajra</h3><p>Vajra motori dhe lubrifikantë nga marka të njohura.</p></article>
+    <article class="card"><div class="icon">⚙️</div><h3>Filtra</h3><p>Filtra vaji, ajri, karburanti dhe kabine.</p></article>
+    <article class="card"><div class="icon">🛑</div><h3>Ferrota</h3><p>Produkte për sistemin e frenimit sipas automjetit.</p></article>
+    <article class="card"><div class="icon">🔧</div><h3>Kit faze</h3><p>Pjesë për mirëmbajtjen e sistemit të shpërndarjes.</p></article>
+    <article class="card"><div class="icon">🚗</div><h3>Pjesë mirëmbajtjeje</h3><p>Zgjidhje për mirëmbajtje dhe servis të automjetit.</p></article>
+    <article class="card"><div class="icon">📦</div><h3>Pjesë këmbimi</h3><p>Na kontakto me të dhënat e makinës për kërkesën tënde.</p></article>
+  </div>
+</section>
+
+<section id="brands" class="brands section">
+  <div class="section-head">
+    <p class="eyebrow">MARKA & APLIKIME</p>
+    <h2>Për shumë modele automjetesh</h2>
+  </div>
+  <div class="brand-list">
+    <span>BMW</span><span>Mercedes-Benz</span><span>Audi</span><span>Volkswagen</span>
+    <span>Porsche</span><span>Opel</span><span>Renault</span><span>Skoda</span>
+  </div>
+</section>
+
+<section class="cta">
+  <div>
+    <p class="eyebrow">KE NEVOJË PËR NJË PJESË?</p>
+    <h2>Na dërgo të dhënat e makinës.</h2>
+    <p>Marka, modeli, viti dhe motori na ndihmojnë të kontrollojmë kërkesën tënde.</p>
+  </div>
+  <a class="btn primary" href="#contact">Na kontakto</a>
+</section>
+
+<section id="contact" class="section contact">
+  <div class="section-head">
+    <p class="eyebrow">KONTAKT</p>
+    <h2>Kërko pjesën tënde</h2>
+    <p>Plotëso formularin dhe na dërgo kërkesën.</p>
+  </div>
+  <form class="contact-form" action="mailto:vendos-emailin-tend@example.com" method="post" enctype="text/plain">
+    <input name="Emri" placeholder="Emri" required>
+    <input name="Makina" placeholder="Marka / Modeli / Viti" required>
+    <input name="Motori" placeholder="Motori">
+    <textarea name="Kerkesa" rows="5" placeholder="Çfarë pjese kërkon?" required></textarea>
+    <button class="btn primary" type="submit">Dërgo kërkesën</button>
+  </form>
+</section>
+</main>
+
+<footer>
+  <div class="footer-logo">AUTRON</div>
+  <p>Premium Car Parts</p>
+  <p class="copy">© 2026 AUTRON. Të gjitha të drejtat e rezervuara.</p>
+</footer>
 </body>
-
-
-
-  
 </html>
+
